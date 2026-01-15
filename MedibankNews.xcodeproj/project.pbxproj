@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6966E1892F179F3100715B0A /* MedibankNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966E1882F179F3100715B0A /* MedibankNewsApp.swift */; };
-		6966E18D2F179F3700715B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966E18C2F179F3700715B0A /* Assets.xcassets */; };
-		6966E1902F179F3700715B0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6966E18F2F179F3700715B0A /* Preview Assets.xcassets */; };
 		6966E1A42F179F3800715B0A /* MedibankNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966E1A32F179F3800715B0A /* MedibankNewsUITests.swift */; };
 		6966E1A62F179F3800715B0A /* MedibankNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6966E1A52F179F3800715B0A /* MedibankNewsUITestsLaunchTests.swift */; };
 		6966E1B32F179F9500715B0A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6966E1B22F179F9500715B0A /* README.md */; };
@@ -49,6 +47,8 @@
 		696EF3662F189474007F5872 /* SourcesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EF3652F189474007F5872 /* SourcesViewModelTests.swift */; };
 		696EF3682F189876007F5872 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EF3672F189876007F5872 /* MockURLProtocol.swift */; };
 		696EF36A2F1898BC007F5872 /* NewsAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EF3692F1898BC007F5872 /* NewsAPIClientTests.swift */; };
+		696EF36C2F18DB0D007F5872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EF36B2F18DB0D007F5872 /* Assets.xcassets */; };
+		696EF36F2F18DDD5007F5872 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EF36E2F18DDD5007F5872 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,8 +71,6 @@
 /* Begin PBXFileReference section */
 		6966E1852F179F3100715B0A /* MedibankNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedibankNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966E1882F179F3100715B0A /* MedibankNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedibankNewsApp.swift; sourceTree = "<group>"; };
-		6966E18C2F179F3700715B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6966E18F2F179F3700715B0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6966E1952F179F3800715B0A /* MedibankNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedibankNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966E19F2F179F3800715B0A /* MedibankNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedibankNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6966E1A32F179F3800715B0A /* MedibankNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedibankNewsUITests.swift; sourceTree = "<group>"; };
@@ -115,6 +113,8 @@
 		696EF3652F189474007F5872 /* SourcesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewModelTests.swift; sourceTree = "<group>"; };
 		696EF3672F189876007F5872 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		696EF3692F1898BC007F5872 /* NewsAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIClientTests.swift; sourceTree = "<group>"; };
+		696EF36B2F18DB0D007F5872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = View/Assets.xcassets; sourceTree = "<group>"; };
+		696EF36E2F18DDD5007F5872 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,22 +171,14 @@
 				6966E1CB2F17A71500715B0A /* Service */,
 				6966E1D02F17A78600715B0A /* Store */,
 				696EF3562F186B06007F5872 /* View */,
+				696EF36D2F18DD68007F5872 /* Preview Content */,
 				6966E1B42F17A37800715B0A /* AppContainer.swift */,
+				696EF36B2F18DB0D007F5872 /* Assets.xcassets */,
 				696EF3462F184F1A007F5872 /* Info.plist */,
 				6966E1882F179F3100715B0A /* MedibankNewsApp.swift */,
 				6966E1B22F179F9500715B0A /* README.md */,
-				6966E18C2F179F3700715B0A /* Assets.xcassets */,
-				6966E18E2F179F3700715B0A /* Preview Content */,
 			);
 			path = MedibankNews;
-			sourceTree = "<group>";
-		};
-		6966E18E2F179F3700715B0A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				6966E18F2F179F3700715B0A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		6966E1982F179F3800715B0A /* MedibankNewsTests */ = {
@@ -288,6 +280,15 @@
 				6966E1C02F17A47E00715B0A /* SourcesViewModel.swift */,
 			);
 			path = Tabs;
+			sourceTree = "<group>";
+		};
+		696EF36D2F18DD68007F5872 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				696EF36E2F18DDD5007F5872 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "View/Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,9 +395,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696EF36C2F18DB0D007F5872 /* Assets.xcassets in Resources */,
+				696EF36F2F18DDD5007F5872 /* Preview Assets.xcassets in Resources */,
 				6966E1B32F179F9500715B0A /* README.md in Resources */,
-				6966E1902F179F3700715B0A /* Preview Assets.xcassets in Resources */,
-				6966E18D2F179F3700715B0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
