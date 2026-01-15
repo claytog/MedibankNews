@@ -47,6 +47,8 @@
 		696EF3662F189474007F5872 /* SourcesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EF3652F189474007F5872 /* SourcesViewModelTests.swift */; };
 		696EF3682F189876007F5872 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EF3672F189876007F5872 /* MockURLProtocol.swift */; };
 		696EF36A2F1898BC007F5872 /* NewsAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696EF3692F1898BC007F5872 /* NewsAPIClientTests.swift */; };
+		696EF3722F18E3CD007F5872 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EF3712F18E3CD007F5872 /* Preview Assets.xcassets */; };
+		696EF3742F18E3EB007F5872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696EF3732F18E3EB007F5872 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +113,8 @@
 		696EF3652F189474007F5872 /* SourcesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewModelTests.swift; sourceTree = "<group>"; };
 		696EF3672F189876007F5872 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		696EF3692F1898BC007F5872 /* NewsAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIClientTests.swift; sourceTree = "<group>"; };
+		696EF3712F18E3CD007F5872 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		696EF3732F18E3EB007F5872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				6966E1CB2F17A71500715B0A /* Service */,
 				6966E1D02F17A78600715B0A /* Store */,
 				696EF3562F186B06007F5872 /* View */,
+				696EF3702F18E3CD007F5872 /* Preview Content */,
+				696EF3732F18E3EB007F5872 /* Assets.xcassets */,
 				6966E1B42F17A37800715B0A /* AppContainer.swift */,
 				696EF3462F184F1A007F5872 /* Info.plist */,
 				6966E1882F179F3100715B0A /* MedibankNewsApp.swift */,
@@ -276,6 +282,14 @@
 			path = Tabs;
 			sourceTree = "<group>";
 		};
+		696EF3702F18E3CD007F5872 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				696EF3712F18E3CD007F5872 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -380,6 +394,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696EF3722F18E3CD007F5872 /* Preview Assets.xcassets in Resources */,
+				696EF3742F18E3EB007F5872 /* Assets.xcassets in Resources */,
 				6966E1B32F179F9500715B0A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
