@@ -19,7 +19,9 @@ struct SavedView: View {
                         ForEach(viewModel.saved) { article in
                             ArticleRowView(article: article, isSaved: viewModel.isArticleSaved(article), onSave: { viewModel.toggleSavedArticle(article) })
                             .contentShape(Rectangle())
-                            .onTapGesture { viewModel.openArticle(article) }
+                            .onTapGesture {
+                                viewModel.openArticle(article)
+                            }
                         }
                         .onDelete { offsets in
                             viewModel.deleteArticle(at: offsets)

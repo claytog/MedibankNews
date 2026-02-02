@@ -11,7 +11,7 @@ final class HeadlinesViewModel: ObservableObject {
 
     @Published var state: LoadState = .idle
     @Published var articles: [Article] = []
-    @Published var selectedArticleURL: URL? = nil
+    @Published var selectedArticle: Article? = nil
     @Published private(set) var savedArticleIDs: Set<String> = []
 
     private let client: NewsAPIClientProtocol
@@ -60,7 +60,7 @@ final class HeadlinesViewModel: ObservableObject {
     }
     
     func openArticle(_ article: Article) {
-        selectedArticleURL = article.url
+        selectedArticle = article
     }
     
     func refreshSavedArticleIDs() {

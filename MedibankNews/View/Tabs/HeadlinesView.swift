@@ -35,6 +35,9 @@ struct HeadlinesView: View {
             }
             .navigationTitle(Constants.TabTitle.headlines)
         }
+        .sheet(item: $viewModel.selectedArticle) { article in
+            SafariView(url: article.url)
+        }
         .task {
             viewModel.refreshSavedArticleIDs()
             await viewModel.loadArticles()
